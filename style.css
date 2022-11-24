@@ -4,6 +4,10 @@
     margin: 0;    
 }
 
+body {
+    background-color:#131c2e;
+}
+
 /*Set the BG, Height and flex of the 'navbar' div*/
 .navbar {
     background-color: #333;
@@ -46,6 +50,13 @@
    font-size: 30px;
 }
 
+
+/*
+ ! ! ! ! ! ! ! ! ! ! ! ! ! !  ! ! ! ! !  ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !BUFFER BETWEEN NAV BAR AND HERO SECTION  ! ! ! ! ! ! ! ! ! ! ! ! ! !  ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
+ ! ! ! ! ! ! ! ! ! ! ! ! ! !  ! ! ! ! !  ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !BUFFER BETWEEN NAV BAR AND HERO SECTION  ! ! ! ! ! ! ! ! ! ! ! ! ! !  ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
+ ! ! ! ! ! ! ! ! ! ! ! ! ! !  ! ! ! ! !  ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !BUFFER BETWEEN NAV BAR AND HERO SECTION  ! ! ! ! ! ! ! ! ! ! ! ! ! !  ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
+*/
+
 /*set basic background and display type in all of heromain*/
 .heromain {
     background-color: #333;
@@ -68,7 +79,7 @@
 }
 
 /*set font size and weight for big text in hero main*/
-.HeroMain {
+.Herotext {
     font-size: 48px;
     font-weight: 900;
 }
@@ -102,4 +113,64 @@ text-decoration: none;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+/*
+ ! ! ! ! ! ! ! ! ! ! ! ! ! !  ! ! ! ! !  ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !BUFFER BETWEEN HERO SECTION AND INFO PICS  ! ! ! ! ! ! ! ! ! ! ! ! ! !  ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
+ ! ! ! ! ! ! ! ! ! ! ! ! ! !  ! ! ! ! !  ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !BUFFER BETWEEN HERO SECTION AND INFO PICS  ! ! ! ! ! ! ! ! ! ! ! ! !  ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
+ ! ! ! ! ! ! ! ! ! ! ! ! ! !  ! ! ! ! !  ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !BUFFER BETWEEN HERO SECTION AND INFO PICS  ! ! ! ! ! ! ! ! ! ! ! ! !  ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
+*/
+
+.InfoPics {
+    display: flex;
+    flex-direction: row;
+    height: 294px;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.One,
+.Two,
+.Three,
+.Four { 
+  flex: 1;
+
+}
+
+
+.LeftBuff,
+.RightBuff {
+    flex: 1;
+    
+}
+
+.InfoTitle {
+    color: #f9faf8;
+    text-align: center;
+}
+
+.InfoText {
+    color: #b3b5b1;
+    text-align: center;
+}
+
+.spacing1 {
+    height: 150px;
+    width: auto;
+}
+
+
+
+
+
+.quotetext {
+    display: block;
+    text-align: center;
+    font-size: xx-large;
+    color: #b3b5b1;
+}
+
+.author {
+    text-align: center;
+    color: #b3b5b1;
 }
