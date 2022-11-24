@@ -1,3 +1,47 @@
-.h1 {
-    font-size: 48px;
+
+/*Set All Default Margins to zero*/
+* {
+    margin: 0;    
+}
+
+/*Set the BG, Height and flex of the 'navbar' div*/
+.navbar {
+    background-color: #333;
+    height: 60px;
+    display: flex;
+    
+}
+
+/*Apply flex 1 to all of the divs in 'navbar' class*/
+.navbar div {
+    flex: 1;
+    margin: 5px;
+    padding: 5px;
+}
+
+/*Apply font option and style to 'navleft' class Header Logo*/
+.navbar .navleft {
+    font-size: 30px;
+    color: #f9faf8;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/*Centers content in navright class*/
+.navbar .navright {
+    justify-content: center;
+    
+}
+
+
+/*Applys style to all the "buttons"*/
+.navbar a {
+   margin-left: 10px;
+   margin-right: 10px;
+   color: #f9faf8;
+   text-decoration: none;
+   font-weight: bolder;
+   font-family: Impact, 'Arial Narrow Bold', sans-serif;
+   font-size: 30px;
 }
